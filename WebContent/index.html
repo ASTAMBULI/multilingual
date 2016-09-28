@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+ 	    <meta name="viewport" content="width=device-width, initial-scale=1">
+ 	    <link rel="stylesheet" href="css/style.css" type="text/css">
+ 	    <link rel="stylesheet" href="css/media_queries.css" type="text/css">
+<title>Multi Language</title>
+</head>
+<body>
+	<div id="multilingual">
+		<div class='main'>
+			<div class='window_container'>
+				<div class='window'>
+					<div id='left'>
+						<div id='text'>
+							<p>Unaonaje Ukiwa Ufukweni</p>
+						</div>
+						<div id='owl-buttons-container'>
+							<div class='owl owl-active'></div>
+							<div class='owl'></div>
+							<div class='owl'></div>
+						</div>
+					</div>
+				<div id='right'>
+					<div>
+					<div id='lang-switch'>
+						<span id='tz'>
+							<span class='flag'><img alt="tz-flag" src="img/tz.png"></span><b>TZ</b>
+						</span>
+						<span id='en'>
+							<b>EN</b><span class='flag'><img alt="tz-flag" src="img/en.gif"></span>
+						</span>					
+					</div>
+					<div id='form-switch'>
+						<span id='sign-in-link'>
+							<a href='#'>Sign In</a>
+						</span>
+						<span id='or'>
+						or
+						</span>
+						<span id='sign-up-link' class='active'>
+							<a  href='#'>Sign Up</a>
+						</span>
+					</div>
+						
+							<div class='form' id="signup">
+							<form>
+								<div class='form-input'>
+								<div class='title'>FULL NAME</div>
+									<input type="text" name='fullname' placeholder="Enter your full name" >
+								</div>
+							
+								<div class='form-input'>
+									<div class='title'>PASSWORD</div>
+									<input type="password" name='password' placeholder="Your password here.." >
+								</div>
+								<div class='form-input'>
+								<div class='title'>E-MAIL</div>
+									<input type="text" name='email' placeholder="Enter your e-mail" >
+								</div>
+									<div class='form-input'>
+									<input type="checkbox" name='statement' >
+									<div class='terms'><span id='initial'>I agree to all statements in </span><span class='active' id='last'>terms of service</span></div>
+								</div>
+								<div class="button">
+									<button  id='sign-up-button'>Sign Up</button> <span class='member'>I'm already a member</span>
+								</div>
+
+							</form>
+						</div>
+						<div class='form' id='signin'>
+							<form>
+								
+								<div class='form-input'>
+									<div class='title'>E-MAIL</div>
+									<input type="text" name='email' placeholder="Enter your e-mail" >
+								</div>
+								<div class='form-input'>
+									<div class='title'>PASSWORD</div>
+									<input type="password" name='password' placeholder="Your password here.." >
+								</div>
+								<div class="button">
+									<button  id='sign-in-button'>Sign In</button> <span class='member'>I'm not a member</span>
+								</div>
+
+							</form>
+						</div>
+					</div>
+
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<script type="text/javascript" src='scripts/jquery.js'></script>
+<script type="text/javascript" src='scripts/script.js'></script>
+</body>
+</html>
